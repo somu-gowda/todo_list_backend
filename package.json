@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "hmr": "nodemon",
+    "nodemon": "npm run start",
+    "start": "node Server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "graphql-yoga": "^3.1.2",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20"
+  }
+}
